@@ -168,9 +168,12 @@ class HotProduct extends Module implements PrestaShop\PrestaShop\Core\Module\Wid
             AND o.date_add >= DATE_SUB(NOW(), INTERVAL ' . (int) $nb_days . ' DAY)'
         );
 
+        $nb_sales_rounded = floor(($nb_sales -1) / 10) * 10;
+
         return [
-            'is_hot' => $nb_sales >= $min_sales,
+            'is_hot' => $nb_sales > $min_sales,
             'nb_sales' => $nb_sales,
+            'nb_sales_rounded' => $nb_sales_rounded,
             'min_sales' => $min_sales,
             'nb_days' => $nb_days,
         ];
