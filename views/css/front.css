@@ -1,0 +1,12 @@
+.hotproduct {
+    background: rgba(213, 213, 213, 0.25);
+    border-radius: 1rem;
+    display: inline-flex;
+    padding: .5rem 1rem;
+    align-items: center;
+    margin-block: 1rem;
+}
+
+.cart-overview .hotproduct {
+    font-size: 0.875rem;
+}

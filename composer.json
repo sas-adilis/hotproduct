@@ -1,0 +1,22 @@
+{
+    "name": "sas-adilis/elegantgiftcard",
+    "config": {
+        "prepend-autoloader": false
+    },
+    "require": {
+        "php": ">=7.0",
+        "ext-json": "*",
+        "ext-dom": "*"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.65"
+    },
+    "authors": [
+        {
+            "name": "sas-adilis",
+            "email": "contact@adilis.fr"
+        }
+    ],
+    "author": "PrestaShop",
+    "license": "OSL-3.0"
+}

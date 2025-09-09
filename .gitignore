@@ -1,0 +1,6 @@
+config.xml
+config_*.xml
+composer.lock
+.php_cs.cache
+/views/css/table.17.css.map
+/vendor/
